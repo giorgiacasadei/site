@@ -1,0 +1,20 @@
+@media (max-width: 500px){
+
+
+    .container{
+        left: 5px;
+    }
+
+    .container2{
+        right: 5px;
+        left: auto;
+    }
+
+    .container3{
+        left: 5px;
+        top: calc(50% + 16px);
+        margin-right: 5vw;
+        max-width: 90%;
+    }
+
+}
