@@ -90,3 +90,32 @@ section{
     object-fit: contain;
     object-position: center top;
 }
+
+.container, 
+.container2, 
+.container3 {
+    position: fixed;
+    top: 50%;
+    z-index: 10;
+    mix-blend-mode: exclusion;
+}
+
+.container p,
+.container2 p,
+.container3 p {
+    color: white; 
+}
+
+.container a,
+.container2 a,
+.container3 a {
+    mix-blend-mode: normal;  
+    color: rgb(128, 0, 255);
+    text-decoration: none;
+}
+
+.container a:hover,
+.container2 a:hover,
+.container3 a:hover {
+    color: white; 
+}
