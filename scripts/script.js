@@ -6,6 +6,7 @@ window.addEventListener('scroll', function() {
     var description = document.getElementById('description');
 
     // Riferimenti alle immagini
+    var section1 = document.getElementById('section11');
     var section1 = document.getElementById('section1');
     var section2 = document.getElementById('section2');
     var section3 = document.getElementById('section3');
@@ -38,24 +39,24 @@ window.addEventListener('scroll', function() {
 
             break;
         case 1:
+            name.textContent = "co:evo";
+            year.textContent = "2025";
+            description.innerHTML = `Co:evo is an independent, interdisciplinary magazine exploring the co-evolution of nature, humanity, and technology. It promotes critical and creative thinking on the porous boundaries between natural and artificial, tracing a post-natural evolution where technology becomes part of the ecosystem.`
+            break;    
+        case 2:
             name.textContent = "macedonia01";
             year.textContent = "2025";
             description.innerHTML = `macedonia01 is the first issue of macedoniaMagazine.<br> in a world of superficial content, macedonia refuses any kind of meaning, depth or value. <br> <br> <a href="https://capoxxv.github.io/macedonia/" target="_blank">visit macedonia01</a>.`
             break;
-        case 2:
+        case 3:
             name.textContent = "sessantotto piramidi";
             year.textContent = "2025";
             description.innerHTML = "sixty-eight ways to make a pyramid."
             break;
-        case 3:
+        case 4:
             name.textContent = "do you think you know what nature is?";
             year.textContent = "2025";
             description.innerHTML = `The installation featured the participants moving in front of a series of images, selecting elements they perceived as natural or artificial. The experiment explored perception and spatial response. <br><br> <a href=" https://vimeo.com/1108038241?share=copy" target="_blank">watch do you know what nature is</a>.`
-            break;
-        case 4:
-            name.textContent = "netartchive.click";
-            year.textContent = "2024";
-            description.innerHTML = `Netartchive is a digital archive dedicated to the preservation and exploration of net art. It reflects on the temporalities of online artistic production through curated sections like Past, Future, and About.<br> <br> <a href="https://netartchive.click" target="_blank"> visit netartchive.click</a>.`
             break;
         case 5:
             name.textContent = "abbaiare tour merch";
@@ -63,14 +64,19 @@ window.addEventListener('scroll', function() {
             description.innerHTML = `official merch for <a href=" https://www.instagram.com/lucreziamusica/" target="_blank">@lucreziamusica</a>`
             break;  
         case 6:
-            name.textContent = "njörd";
-            year.textContent = "2023";
-            description.innerHTML = ` you already have the possibility chose the color of your salmon without knowing it. with Njörd you can actively choose between every shade of colors and texture for the salmon you’re going to eat. now you really have the power to change the nature to accomplish your desires.<br> <br> <a href="https://vimeo.com/1108041250?share=copy" target="_blank"> watch njörd</a>.` 
+            name.textContent = "netartchive.click";
+            year.textContent = "2024";
+            description.innerHTML = `Netartchive is a digital archive dedicated to the preservation and exploration of net art. It reflects on the temporalities of online artistic production through curated sections like Past, Future, and About.<br> <br> <a href="https://netartchive.click" target="_blank"> visit netartchive.click</a>.`
             break;
-        case 7:  
-            name.textContent = "mep";
+        case 7:
+             name.textContent = "mep";
             year.textContent = "2024";
             description.textContent = "The Mali Elephant Project protects the endangered elephants of Gourma, promoting harmony between humans, wildlife, and nature. Its redesigned visual identity reflects this mission, with a new logo that merges a comma and an elephant’s profile — a symbol of continuity and reconnection between species."
+            break;
+        case 8:  
+            name.textContent = "njörd";
+            year.textContent = "2023";
+            description.innerHTML = `you already have the possibility chose the color of your salmon without knowing it. with Njörd you can actively choose between every shade of colors and texture for the salmon you’re going to eat. now you really have the power to change the nature to accomplish your desires.<br> <br> <a href="https://vimeo.com/1108041250?share=copy" target="_blank"> watch njörd</a>.` 
             break;
     
         default:
@@ -81,3 +87,4 @@ window.addEventListener('scroll', function() {
             <a href="mailto:giorgiacasadei09@gmail.com">giorgiacasadei09@gmail.com</a></p>`;
     }
 });
+
