@@ -33,7 +33,7 @@ window.addEventListener('scroll', function() {
     switch (section) {
         case 0:
             name.textContent = "Giorgia Casadei";
-            year.textContent = "2025";
+            year.textContent = "2026";
             description.innerHTML = ` <p id="description">based in milan, Italy. <br> graduated with a bachelor’s degree in Communication Design at Politecnico di Milano <br> currently pursuing the master’s degree. <br> half of <a href="https://www.instagram.com/ugostudiocosasarebbe/" target="_blank">ugostudio</a>.<br><br>
             <a href="https://www.instagram.com/giorgiacasadeii/" target="_blank">@giorgiacasadeii</a><br>
             <a href="mailto:giorgiacasadei09@gmail.com">giorgiacasadei09@gmail.com</a></p>`;
@@ -97,7 +97,7 @@ window.addEventListener('scroll', function() {
     
         default:
             name.textContent = "Giorgia Casadei";
-            year.textContent = "2025";
+            year.textContent = "2026";
            description.innerHTML = ` <p id="description">based in milan, Italy. <br> graduated with a bachelor’s degree in Communication Design at Politecnico di Milano <br> currently pursuing the master’s degree. <br> half of <a href="https://www.instagram.com/ugostudiocosasarebbe/" target="_blank">ugostudio</a>.<br><br>
             <a href="https://www.instagram.com/giorgiacasadeii/" target="_blank">@giorgiacasadeii</a><br>
             <a href="mailto:giorgiacasadei09@gmail.com">giorgiacasadei09@gmail.com</a></p>`;
