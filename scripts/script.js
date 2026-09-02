@@ -15,6 +15,7 @@ window.addEventListener('scroll', function() {
     var section6 = document.getElementById('section6');
     var section7 = document.getElementById('section7');
     var section8 = document.getElementById('section8');
+    var section8 = document.getElementById('section9');
 
     // Calcola l'altezza della finestra per determinare la sezione attuale
    const sections = document.querySelectorAll('section');
@@ -39,41 +40,56 @@ window.addEventListener('scroll', function() {
 
             break;
         case 1:
+            name.textContent = "hypersthesia";
+            year.textContent = "2026";
+            description.innerHTML = `hypersthesia: in the flesh. is an editorial exploration of reality, perceived entirely through the boundary of the skin. the first issue examines the physical and emotional weight of aging, framing the body's inevitable transformation as a visceral grieving process. time's passage is documented across the topography of the human form, tracing a tactile journey through the five stages of mourning: shock, denial, anger, negotiation, and, ultimately, acceptance.`
+            break;   
+        case 2:
+            name.textContent = "okraiina";
+            year.textContent = "2026";
+            description.innerHTML = `in contemporary conflicts, especially in ukraine, the datafication of territory reduces lived space to operational data, coordinates, and targets. the project okraiina uses gamification as a critical language within an interactive installation to reveal this playful structure of digital warfare, exposing the gap between rigid data and the fragility of real territory to turn classification systems into tools for perceptual awareness.`
+            break;   
+        case 3:
+            name.textContent = "piripì";
+            year.textContent = "2026";
+            description.innerHTML = `a story about growing up—because, deep down, we’re all popcorn. Piripì fa POP is a picture book that tells the story of a corn kernel. a project by ugostudio.`
+            break;    
+        case 4:
             name.textContent = "co:evo";
             year.textContent = "2025";
             description.innerHTML = `Co:evo is an independent, interdisciplinary magazine exploring the co-evolution of nature, humanity, and technology. It promotes critical and creative thinking on the porous boundaries between natural and artificial, tracing a post-natural evolution where technology becomes part of the ecosystem.`
             break;    
-        case 2:
+        case 5:
             name.textContent = "macedonia01";
             year.textContent = "2025";
             description.innerHTML = `macedonia01 is the first issue of macedoniaMagazine.<br> in a world of superficial content, macedonia refuses any kind of meaning, depth or value. <br> <br> <a href="https://capoxxv.github.io/macedonia/" target="_blank">visit macedonia01</a>.`
             break;
-        case 3:
+        case 6:
             name.textContent = "sessantotto piramidi";
             year.textContent = "2025";
             description.innerHTML = "sixty-eight ways to make a pyramid."
             break;
-        case 4:
+        case 7:
             name.textContent = "do you think you know what nature is?";
             year.textContent = "2025";
             description.innerHTML = `The installation featured the participants moving in front of a series of images, selecting elements they perceived as natural or artificial. The experiment explored perception and spatial response. <br><br> <a href=" https://vimeo.com/1108038241?share=copy" target="_blank">watch do you know what nature is</a>.`
             break;
-        case 5:
+        case 8:
             name.textContent = "abbaiare tour merch";
             year.textContent = "2025";
             description.innerHTML = `official merch for <a href=" https://www.instagram.com/lucreziamusica/" target="_blank">@lucreziamusica</a>`
             break;  
-        case 6:
+        case 9:
             name.textContent = "netartchive.click";
             year.textContent = "2024";
             description.innerHTML = `Netartchive is a digital archive dedicated to the preservation and exploration of net art. It reflects on the temporalities of online artistic production through curated sections like Past, Future, and About.<br> <br> <a href="https://netartchive.click" target="_blank"> visit netartchive.click</a>.`
             break;
-        case 7:
-             name.textContent = "mep";
+        case 10:
+            name.textContent = "mep";
             year.textContent = "2024";
             description.textContent = "The Mali Elephant Project protects the endangered elephants of Gourma, promoting harmony between humans, wildlife, and nature. Its redesigned visual identity reflects this mission, with a new logo that merges a comma and an elephant’s profile — a symbol of continuity and reconnection between species."
             break;
-        case 8:  
+        case 11:  
             name.textContent = "njörd";
             year.textContent = "2023";
             description.innerHTML = `you already have the possibility chose the color of your salmon without knowing it. with Njörd you can actively choose between every shade of colors and texture for the salmon you’re going to eat. now you really have the power to change the nature to accomplish your desires.<br> <br> <a href="https://vimeo.com/1108041250?share=copy" target="_blank"> watch njörd</a>.` 
